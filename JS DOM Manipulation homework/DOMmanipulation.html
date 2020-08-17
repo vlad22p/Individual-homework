@@ -1,0 +1,31 @@
+<html>
+
+    <head>
+        <title>DOM manipulation JS</title>
+        <link rel="stylesheet" type="text/css" href="DOMmanipulation.css">
+        <script defer src="DOMmanipulation.js"></script>
+    </head>
+
+    <body>
+
+        <main>
+            <div id="error"></div>
+            <div id="visible">   
+                <div class="inputs">
+                    <form id="myform" onsubmit="return Validation()">
+                        <input type="text" id="firstname" placeholder="First name" class="inputs"><br>
+                        <input type="text" id="lastname" placeholder="Last name" class="inputs">
+                        <p>Gender</p>
+                        <input type="radio" name="gender" id="male" value="male" class="radio">M<br>
+                        <input type="radio" name="gender" id="female" value="female" class="radio">F<br>
+                        <textarea id="message" placeholder="Your message here"></textarea><br>
+                        <button type="submit" id="submitButton">Submit</button>
+                    </form>
+                </div>
+                <img src="image.png">    
+            </div>  
+        </main>
+
+    </body>
+</html>
+

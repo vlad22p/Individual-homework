@@ -1,0 +1,26 @@
+main{
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+}
+#visible{
+    display: flex;
+    justify-content: center; 
+    border:  solid black;
+    padding: 30px;
+}
+.inputs{
+    width: 300px;
+    margin-bottom: 15px;
+}
+.radio{
+    margin-left: 50px;
+}
+#message{
+    height: 100px;
+    width: 300px;
+    margin-top: 15px;
+}
+img{
+    margin-left: 25px;
+}
