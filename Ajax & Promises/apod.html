@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="apod.css">
+    </head>
+    <body>
+        <header>
+            <img src="Images\headerLogo.png"  alt="NASA Logo" id="nasaLogo">
+            <img src="Images\earth.png" alt="earth" id="earth">
+        </header>
+        <div id="inputs">
+            <button id="showApod" onclick="showApod()">Show the picture of the day!</button>
+            <input type="date" id="apodDate">
+        </div>
+        <main>
+            <h1 id="apodTitle"></h1>
+            <div class="loader"></div>
+            <img id="apodImg"></img>
+            <p id="apodDescription"></p>
+        </main>
+    <script src="apod.js"></script>    
+    </body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Images/wallpaper.jpg");
+    color: white;
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+#nasaLogo{ 
+    width: 200px;
+}
+#earth{  
+    width: 55px;
+}
+#inputs{
+    margin-top: 20px;
+    margin-left: 3%;
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+}
+#showApod{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    width: 175px;
+    height: 50px;
+    border: none;
+}
+#showApod:hover{
+    cursor: pointer;
+    background-image: linear-gradient(red, black, blue);
+}
+#apodDate{
+    background-color: black;
+    color: white;
+    width: 175px;
+    margin-bottom: 50px;
+}
+main{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.9);
+    text-shadow: 2px 2px black;
+}   
+#apodTitle{
+    margin-top: 100px;
+}
+#apodImg{
+    width: 50%;
+    margin:50px;
+    box-shadow: 15px 20px 39px -14px rgba(0,0,0,0.9);
+}
+#apodDescription{
+    text-align: justify;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.loader {
+    display: none;
+    margin: 100px;
+    border: 16px solid black;
+    border-radius: 50%;
+    border-top: 16px solid red;
+    border-bottom: 16px solid darkblue;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
