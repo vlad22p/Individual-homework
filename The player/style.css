@@ -25,6 +25,37 @@ main{
     background-color: #3d3d3d;
 }
 
+#gameCover{
+    width: 100%;
+    margin-top: 40%;
+    text-align: center;
+    color: #ffff12;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#startButton{
+    background-color: #ffff12; 
+    border: none;
+    color: black;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 50%
+}
+
+#startButton:hover{
+    box-shadow: 0px 0px 13px 14px rgba(0,0,0,0.85);
+    cursor: pointer;
+}
+
+#player{
+    display: none;
+}
+
 #playerImg{
     height: 100;
     width: 100;

@@ -2,6 +2,7 @@ var baseUrl = new URL ("https://api.nasa.gov/planetary/apod?api_key=bufEcMoK5Pfk
 
 function showApod(){
     
+    displayMain();
     setApodDate();
     displayLoader();
     
@@ -15,6 +16,11 @@ function showApod(){
                 displayApod(jsonResp);  
             }
         ).finally(hideLoader);
+}
+
+function displayMain(){
+    var main = document.querySelector("main");
+    main.style.visibility = "visible";
 }
 
 function displayLoader(){
@@ -37,7 +43,6 @@ function setApodDate(){
         baseUrl.searchParams.set("date", apodDate.value);
     }
 }
-
 function displayApod(apod){
     var apodTitle = document.getElementById("apodTitle");
     var apodImg = document.getElementById("apodImg");

@@ -1,0 +1,66 @@
+
+body{
+    background: linear-gradient(25deg, rgba(0,0,0,1) 10%, rgba(38,38,38,1) 25%, rgba(101,101,101,1) 50%, rgba(158,158,158,1) 75%, rgba(218,218,218,1) 90%);
+    background-attachment: fixed;
+    margin: 0;
+}
+    header{
+        position: fixed;
+        width: 50%;
+        margin-left: 25%;
+        text-align: center;
+        background-color:  black;
+        box-shadow: 10px 10px 25px 0px  black;
+        color: white;
+    }
+        #profilePicture{
+            width: 150px;
+            margin: auto;
+            margin-top: 15px;
+            padding-right: 5px;
+            border-radius: 50%;
+            border-right: white solid;
+        }
+    main{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 0;
+        margin-top: 250px;
+        color: white;
+        line-height: 160%;
+        display: inline-block;
+    }
+        section{
+            margin-top: 40px;
+            border-top:  solid black 2px;
+            border-right: solid black 2px;
+            background-color: gray;
+            box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.75);
+        }
+            section h3{
+                margin-left: 50px;
+            }  
+    aside{
+        position: fixed;
+        width: 5%;
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 300px;
+    }
+        .asideImg{
+            width: 100%;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+            border-radius: 50%;
+        }
+    footer{
+        margin-bottom: 0;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }    
+        footer span{
+            margin-left: 50px;
+            font-size: large;
+        }
